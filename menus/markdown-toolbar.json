@@ -1,0 +1,27 @@
+{
+  "context-menu": {
+    "atom-text-editor": [{
+      "label": "Toggle markdown-toolbar",
+      "command": "markdown-toolbar:toggle"
+    }]
+  },
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "Markdown Toolbar",
+      "submenu": [{
+        "label": "Toggle",
+        "command": "markdown-toolbar:toggle"
+      }, {
+        "label": "Position",
+        "submenu": [{
+          "label": "Top",
+          "command": "markdown-toolbar:position-top"
+        }, {
+          "label": "Bottom",
+          "command": "markdown-toolbar:position-bottom"
+        }]
+      }]
+    }]
+  }]
+}
