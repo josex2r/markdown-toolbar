@@ -21,6 +21,18 @@
           "label": "Bottom",
           "command": "markdown-toolbar:position-bottom"
         }]
+      }, {
+        "label": "Size",
+        "submenu": [{
+          "label": "Small",
+          "command": "markdown-toolbar:size-small"
+        }, {
+          "label": "Medium",
+          "command": "markdown-toolbar:size-medium"
+        }, {
+          "label": "Big",
+          "command": "markdown-toolbar:size-big"
+        }]
       }]
     }]
   }]
