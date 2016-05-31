@@ -3,17 +3,83 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+@import "../icons/font-awesome-4.6.3/less/font-awesome.less";
+
+@size-small: 10px;
+@size-medium: 14px;
+@size-big: 20px;
+@extra-width: 10px;
 
 .markdown-toolbar {
-
-}
-
-.markdown-toolbar.small span.icon:before {
-	font-size: 16px
-}
-.markdown-toolbar.medium span.icon:before {
-	font-size: 25px;
-}
-.markdown-toolbar.big span.icon:before {
-	font-size: 40px;
+	& ul {
+		list-style-type: none;
+		text-align: center;
+		display: inline-block;
+		padding: 0;
+		margin: 5px;
+		border: 1px solid @background-color-highlight;
+		border-radius: 5px;
+		li {
+			display: inline-block;
+			border-left: 1px solid @background-color-highlight;
+			&:hover {
+				background-color: @background-color-highlight;
+			}
+			span {
+				padding: 5px;
+			}
+		}
+	}
+	&.small {
+		span.fa {
+			line-height: @size-small;
+			font-size: @size-small;
+			width: (@size-small + @extra-width);
+		}
+		ul.dropdown-content {
+			margin-top: (@size-small + @extra-width);
+		}
+	}
+	&.medium {
+		span.fa {
+			line-height: @size-medium;
+			font-size: @size-medium;
+			width: (@size-medium + @extra-width);
+		}
+		ul.dropdown-content {
+			margin-top: (@size-medium + @extra-width);
+		}
+	}
+	&.big {
+		span.fa {
+			line-height: @size-big;
+			font-size: @size-big;
+			width: (@size-big + @extra-width);
+		}
+		ul.dropdown-content {
+			margin-top: (@size-big + @extra-width);
+		}
+	}
+	li.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+	ul.dropdown-content {
+		background-color: @app-background-color;
+		z-index: 999;
+		display: none;
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		margin-left: -2px;
+		top: -3px;
+		left: 0;
+		border-radius: 0px 0px 5px 5px;
+		& > li {
+			display: list-item;
+		}
+	}
+	li.dropdown:hover ul.dropdown-content {
+		display: inline-block;
+	}
 }
