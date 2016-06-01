@@ -2,10 +2,10 @@
   "name": "markdown-toolbar",
   "main": "./lib/markdown-toolbar",
   "version": "0.0.1",
-  "description": "A short description of your package",
+  "description": "Small markdown toolbar to make easy add context to your files",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/markdown-toolbar",
+  "repository": "https://github.com/josex2r/markdown-toolbar",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
