@@ -1,15 +1,13 @@
 {
   "name": "markdown-toolbar",
   "main": "./lib/markdown-toolbar",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Small markdown toolbar to make easy add context to your files",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/josex2r/markdown-toolbar",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
