@@ -8,7 +8,7 @@ Small markdown toolbar to make easy add context to your files.
 
 Inspired in [Github's toolbar](https://github.com/blog/2097-improved-commenting-with-markdown).
 
-![markdown-toolbar](./markdown-toolbar.png)
+![markdown-toolbar](https://raw.githubusercontent.com/josex2r/markdown-toolbar/master/markdown-toolbar.png)
 
 #### How to / Installation
 
