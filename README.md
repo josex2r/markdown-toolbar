@@ -1,5 +1,23 @@
-# markdown-toolbar package
+# markdown-toolbar
 
-A short description of your package.
+[![Plugin installs!](https://img.shields.io/apm/dm/markdown-toolbar.svg?style=flat-square)](https://atom.io/packages/markdown-toolbar)
+[![Package version!](https://img.shields.io/apm/v/markdown-toolbar.svg?style=flat-square)](https://atom.io/packages/markdown-toolbar)
+[![Dependencies!](https://img.shields.io/david/josex2r/markdown-toolbar.svg?style=flat-square)](https://david-dm.org/josex2r/markdown-toolbar)
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Small markdown toolbar to make easy add context to your files.
+
+Inspired in [Github's toolbar](https://github.com/blog/2097-improved-commenting-with-markdown).
+
+![markdown-toolbar](./markdown-toolbar.png)
+
+#### How to / Installation
+
+Install package through Atom or use CLI:
+
+```
+$ apm install markdown-toolbar
+```
+
+#### License
+
+markdown-toolbar is released under the [MIT License](http://opensource.org/licenses/MIT).
