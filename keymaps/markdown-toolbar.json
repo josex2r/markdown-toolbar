@@ -1,5 +1,18 @@
 {
   "atom-workspace": {
     "ctrl-alt-o": "markdown-toolbar:toggle"
+  },
+  "atom-text-editor": {
+    "crtl-shift-1": "markdown-toolbar:h1",
+    "crtl-shift-2": "markdown-toolbar:h2",
+    "crtl-shift-3": "markdown-toolbar:h3",
+    "ctrl-shift-b": "markdown-toolbar:bold",
+    "ctrl-shift-i": "markdown-toolbar:italic",
+    "ctrl-shift-q": "markdown-toolbar:quote",
+    "ctrl-shift-c": "markdown-toolbar:code",
+    "ctrl-shift-l": "markdown-toolbar:link",
+    "ctrl-shift-o": "markdown-toolbar:list-ordered",
+    "ctrl-shift-u": "markdown-toolbar:list-unordered",
+    "ctrl-shift-t": "markdown-toolbar:list-task"
   }
 }
