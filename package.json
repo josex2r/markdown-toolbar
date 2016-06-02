@@ -1,7 +1,7 @@
 {
   "name": "markdown-toolbar",
   "main": "./lib/markdown-toolbar",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Small markdown toolbar to make easy add context to your files",
   "keywords": [],
   "repository": "https://github.com/josex2r/markdown-toolbar",
